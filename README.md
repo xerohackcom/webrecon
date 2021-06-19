@@ -32,12 +32,12 @@ Filenames in bold don't work if the name is changed. Pls change the scripts to a
 
 > assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && bash autonuce.sh
 
-#### assetfinder + httprobe + https-only + gau + urlfiles.sh + urlredir.sh (Heavy)
+#### assetfinder + httprobe + https-only + gau + urlfiles.sh + quredir.sh (Heavy)
 
-> assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gau -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash urlredir.sh
+> assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gau -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash quredir.sh
 
-#### assetfinder + httprobe + https-only + gau + urlfiles.sh + + urlredir.sh + autonuce.sh (Very-Heavy - All In One)
+#### assetfinder + httprobe + https-only + gau + urlfiles.sh + + quredir.sh + autonuce.sh (Very-Heavy - All In One)
 
-> assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gau -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash urlredir.sh && bash autonuce.sh
+> assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gau -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash quredir.sh && bash autonuce.sh
 
 ## Happy Haxing :)
