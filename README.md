@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img src="https://raw.githubusercontent.com/xerohackcom/banner.png" alt="quick-pentest-scripts banner xerohack bhavesh kaul">
+	<img src="https://raw.githubusercontent.com/xerohackcom/quick-pentest-scripts/main/github-assets/banner.png" alt="quick-pentest-scripts bhavesh kaul xerohack">
 	<br>
 	Quick-Pentest-Scripts
 </h1>
