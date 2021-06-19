@@ -16,13 +16,17 @@
 - [x] quredir - get open-redirect endpoints from all urls
 
 
-### Pro Hax0r Setup
+### Quick Setup
 
-> git clone https://github.com/xerohackcom/quick-pentest-scripts.git && mv quick-pentest-scripts QPS && rm -rf quick-pentest-scripts
+#### Run the following command in terminal
+
+> git clone https://github.com/xerohackcom/quick-pentest-scripts.git && mv quick-pentest-scripts QPS && rm -rf quick-pentest-scripts && cd QPS
+
+- Copy the scripts to your recon directory (you can easily copy paste or use cp command)
 
 ### Usage!
 
-Filenames in bold don't work if the name is changed. Pls change the scripts to accomodate your names.
+Filenames in bold don't work if the name is changed. Pls change the scripts to accomodate your names
 
 #### assetfinder + httprobe + https-only + autonuce.sh
 
