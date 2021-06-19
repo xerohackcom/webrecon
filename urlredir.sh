@@ -1,0 +1,6 @@
+cat allurls | grep -i "redir="
+cat allurls | grep -i "redir=" | grep -i "https://"
+cat allurls | grep -i "redirect=" | grep -i "https://www." | grep -i "http://"
+cat allurls | grep -i "redirect=www." | grep -i "https://"
+cat allurls | grep -i "redirect=https://" | grep -i "https://"
+cat allurls | grep -i "redirect=http://" | grep -i "https://"

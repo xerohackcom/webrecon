@@ -1,19 +1,39 @@
-## Current Scripts
+<h1 align="center">
+	<br>
+	<img src="https://raw.githubusercontent.com/xerohackcom/banner.png" alt="quick-pentest-scripts banner xerohack bhavesh kaul">
+	<br>
+	Quick-Pentest-Scripts
+</h1>
 
-- autonuce.sh
+<p align="center">
+	Quick, Simple & Working quick scripts for pentesting. Created within 5 mins `\_(^v^)_/`
+</p>
 
-## autonuce.sh
+## Scripts
 
-Just place it in your working recon directory and run it against a text file containing subdomains. Name the subdomains file as 'subs' (without any extensions or any other name).
+- [x] autonuce - just automate nuclei against list of subs
+- [x] urlfiles - grep files from allurls
+- [x] quredir - get open-redirect endpoints from all urls
 
-**Usage with assetfinder**
 
-`assetfinder example.com | httprobe | grep -i "https://" | anew subs && bash autonuce.sh`
+### Pro Hax0r Setup
 
-**What it does?**
+> git clone https://github.com/xerohackcom/quick-pentest-scripts.git && mv quick-pentest-scripts QPS && rm -rf quick-pentest-scripts
 
-- Creates a folder in your current working directory named "nuce"
-  
-- Runs nuclei templates one by one
-  
-- Displays all file created by nuclei
+### Usage!
+
+Filenames in bold don't work if the name is changed. Pls change the scripts to accomodate your names.
+
+#### assetfinder + httprobe + https-only + autonuce.sh
+
+> assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && bash autonuce.sh
+
+#### assetfinder + httprobe + https-only + gau + urlfiles.sh + urlredir.sh (Heavy)
+
+> assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gau -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash urlredir.sh
+
+#### assetfinder + httprobe + https-only + gau + urlfiles.sh + + urlredir.sh + autonuce.sh (Very-Heavy - All In One)
+
+> assetfinder xyz.com | httprobe | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gau -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash urlredir.sh && bash autonuce.sh
+
+## Happy Haxing :)
