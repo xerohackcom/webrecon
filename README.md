@@ -23,6 +23,7 @@
 > git clone https://github.com/xerohackcom/quick-pentest-scripts.git && mv quick-pentest-scripts QPS && rm -rf quick-pentest-scripts && cd QPS
 
 - Copy the scripts to your recon directory (you can easily copy paste or use cp command)
+- You reuqire the basics of settings up the tools these scripts automate. Copy the tool name & google. Goto their github repos and set them up propoerly. These scripts automate usage. Sit down and relax. Better to run on cloud for heavy tests / full scope recons.
 
 ### Usage!
 
