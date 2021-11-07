@@ -31,15 +31,15 @@
 
 Filenames in bold don't work if the name is changed. Pls change the scripts to accomodate your names
 
-#### assetfinder + httprobe + https-only + autonuce.sh
+#### assetfinder + httpx + https-only + autonuce.sh
 
 > assetfinder xyz.com | sudo httpx | grep -i "https://" | anew <b>subs</b> && bash autonuce.sh
 
-#### assetfinder + httprobe + https-only + gau + urlfiles.sh + quredir.sh (Heavy)
+#### assetfinder + httpx + https-only + gauplus + urlfiles.sh + quredir.sh (Heavy)
 
 > assetfinder xyz.com | sudo httpx | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gauplus -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash quredir.sh
 
-#### assetfinder + httprobe + https-only + gau + urlfiles.sh + + quredir.sh + autonuce.sh (Very-Heavy - All In One)
+#### assetfinder + httpx + https-only + gauplus + urlfiles.sh + + quredir.sh + autonuce.sh (Very-Heavy - All In One)
 
 > assetfinder xyz.com | sudo httpx | grep -i "https://" | anew <b>subs</b> && cat <b>subs</b> | gauplus -b ttf,woff,svg,png,jpeg,jpg,css,bmp,tiff,woff2,ico,icon,PNG,JPG,BMP,CSS,gif,GIF | grep -i "https://" | anew <b>allurls</b> && bash urlfiles.sh && bash quredir.sh && bash autonuce.sh
 
