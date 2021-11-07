@@ -20,7 +20,7 @@
 
 #### Run the following command in terminal
 
-> git clone https://github.com/xerohackcom/quick-pentest-scripts.git && mv quick-pentest-scripts QPS && rm -rf quick-pentest-scripts && cd QPS
+> git clone https://github.com/xerohackcom/webrecon.git && mv webrecon XHW && rm -rf webrecon && cd XHW
 
 #### Copy scripts to your recon folder
 - Copy the scripts to your recon directory. You can use 'cp' command to copy these scripts to your recon folder.
