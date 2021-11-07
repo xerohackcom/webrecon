@@ -2,7 +2,7 @@
 	<br>
 	<img src="https://raw.githubusercontent.com/xerohackcom/quick-pentest-scripts/main/github-assets/banner.png" alt="quick-pentest-scripts bhavesh kaul xerohack">
 	<br>
-	Webrecon Scripts
+	webrecon scripts
 </h1>
 
 <p align="center">
