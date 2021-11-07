@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-	Quick, Simple & Working quick scripts for pentesting. Created within 5 mins `\_(^v^)_/`
+	Quick scripts for web recon for your pentesting. Created within 5 mins `\_(^v^)_/`
 </p>
 
 ## Scripts
