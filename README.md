@@ -20,7 +20,7 @@
 
 #### Run the following command in terminal
 
-> git clone https://github.com/xerohackcom/webrecon.git && mv webrecon XHW && rm -rf webrecon && cd XHW
+> git clone --depth=1 https://github.com/xerohackcom/webrecon.git && mv webrecon XHW && rm -rf webrecon && cd XHW && ll
 
 #### Copy scripts to your recon folder
 - Copy the scripts to your recon directory. You can use 'cp' command to copy these scripts to your recon folder.
